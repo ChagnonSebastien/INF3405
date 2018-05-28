@@ -1,7 +1,11 @@
 .classpath
 .project
-*.class
+
 /bin/
-bin/
+/target/
+/.settings/
+
+*.class
 *.jar
 *.txt
+*.pdf
