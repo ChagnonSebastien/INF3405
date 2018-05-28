@@ -1,4 +1,4 @@
-package ca.polymtl.inf3405.tp1.server;
+package ca.polymtl.inf3405.lab1.server;
 
 import java.awt.image.BufferedImage;
 import java.io.IOException;
@@ -7,7 +7,7 @@ public class Sobel {
     
 	public static BufferedImage process(BufferedImage image) throws IOException 
 	{
-	  System.out.println("applying filter");
+	  System.out.println("Applying filter");
 	
 	  int x = image.getWidth();
 	  int y = image.getHeight();
